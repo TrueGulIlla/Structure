@@ -1,0 +1,51 @@
+
+.carMusc {
+    background: url("../../../public/img/cacaaar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+}
+
+.carMusc__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.carMusc__title {
+    color: rgb(219, 49, 56);
+    font-family: ReformaGroteskBoldC;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+
+}
+
+.carMusc__text {
+    color: rgb(255, 255, 255);
+    font-family: ReformaGroteskMediumC;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: center;
+}
+
+.carMusc__button {
+    padding-bottom: 100px;
+}
+
+.carMusc__button button {
+    color: rgb(255, 255, 255);
+    font-family: ReformaGroteskDemiC;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    /* accent */
+    background: rgb(219, 49, 56);
+    padding: 15px 25px;
+}

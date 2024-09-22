@@ -1,0 +1,32 @@
+.header{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header__container{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.header__navbar{
+
+}
+.header__list{
+display: flex;
+    gap: 30px;
+}
+.header__item{
+    color: rgb(255, 255, 255);
+    font-family: ReformaGroteskMediumC;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: center;
+
+}
+.header__burger{
+
+}
